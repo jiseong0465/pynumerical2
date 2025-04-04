@@ -13,12 +13,12 @@ def bisection(f,a,b,n):
 
 # Define function
 def f(x): 
-    return -x**2 + 6.0 * x - 5.0
+    return x**3 - 8.0 
 
 # Execute bisection function
-a = -2.0
-b = 3.0
-n = 7
+a = 0
+b = 5.0
+n = 10
 xb = bisection(f,a,b,n)
 
 # Print results
